@@ -7,7 +7,7 @@ using UnityEditor;
 [CreateAssetMenu(fileName = "Dialogue", menuName = "New Dialogue/Dialogue")]
 public class DialogueSettings : ScriptableObject
 {
-    [Header(" ")]
+    [Header("Settings")]
     public GameObject actor;
 
     [HeaderAttribute("Dialogue")]
@@ -16,7 +16,7 @@ public class DialogueSettings : ScriptableObject
 
     public List <Sentences> dialogues = new List <Sentences>();
 }
-
+  
 [System.Serializable]
 public class Sentences
 {
